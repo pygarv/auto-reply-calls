@@ -62,6 +62,25 @@ Without this app, callers are left wondering if you're ignoring them. **Auto Rep
 | `READ_CALL_LOG` | To identify the caller's number |
 | `SEND_SMS` | To send the auto-reply message |
 
+### 🛠️ Step-by-Step Guide to Enable SMS Permissions on Android 15 or later
+
+1. **Open App Info:**
+   * **Quick Way:** Long-press the app icon and tap **App info** (or the 'i' icon).
+   * **Settings Way:** Go to **Settings** > **Apps** > **See all apps** > Select the app.
+
+2. **Allow Restricted Settings:**
+   * On the **App Info** page, tap the **three vertical dots (⋮)** in the top-right corner.
+   * Select **"Allow restricted settings"**.
+   * *Note: You may be prompted to enter your device PIN or use biometric authentication to confirm.*
+
+3. **Grant SMS Permissions:**
+   * Once restricted settings are enabled, go back to the **Permissions** section within the App Info page.
+   * Find **SMS** (likely under the "Not allowed" section).
+   * Tap **SMS** and change the setting to **"Allow"**.
+
+---
+*This should resolve the permission block. Let me know if you're still seeing the 'Restricted' dialogue after following these steps!*
+
 ## 🚀 Getting Started
 
 ### Prerequisites
