@@ -13,7 +13,7 @@ class SmsSender(private val context: Context) {
     companion object {
         private const val TAG = "SmsSender"
         private const val MAX_SMS_LENGTH = 160
-        private const val MESSAGE_SIGNATURE = "\n\n-Sent from Auto Reply Calls"
+        private const val MESSAGE_SIGNATURE = "\n\n- his agent 🤖."
     }
 
     private val preferencesManager = PreferencesManager(context)
